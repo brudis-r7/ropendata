@@ -26,7 +26,7 @@ data frame
 Retrieve details for a specific Rapid7 Open Data study
 }
 \examples{
-\dontrun{
-get_study_details("sonar.national_exposure")
-}
+try(
+  get_study_details("sonar.national_exposure")
+) -> details
 }

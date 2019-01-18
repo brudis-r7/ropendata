@@ -1,6 +1,8 @@
 ---
 output: rmarkdown::github_document
 ---
+[![Travis build status](https://travis-ci.org/brudis-r7/ropendata.svg?branch=master)](https://travis-ci.org/brudis-r7/ropendata) 
+[![Coverage status](https://codecov.io/gh/brudis-r7/ropendata/branch/master/graph/badge.svg)](https://codecov.io/github/brudis-r7/ropendata?branch=master) [![CRAN status](https://www.r-pkg.org/badges/version/ropendata)](https://cran.r-project.org/package=ropendata)
 
 # ropendata
 
@@ -69,3 +71,13 @@ glimpse(
   get_file_details("sonar.fdns_v2", "2018-06-15-1529049662-fdns_aaaa.json.gz")
 )
 ```
+
+## ropendata Metrics
+
+```{r cloc, echo=FALSE}
+cloc::cloc_pkg_md()
+```
+
+## Code of Conduct
+
+Please note that the 'ropendata' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.

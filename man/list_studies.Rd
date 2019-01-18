@@ -19,7 +19,7 @@ data frame
 List available Rapid7 Cybersecurity Studies
 }
 \examples{
-\dontrun{
-list_studies()
-}
+try(
+  list_studies()
+) -> studies
 }

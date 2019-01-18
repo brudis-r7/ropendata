@@ -13,9 +13,10 @@
 #'        and the key is not found, you will be prompted to enter the key.
 #' @return data frame
 #' @export
-#' @examples \dontrun{
-#' get_study_details("sonar.national_exposure")
-#' }
+#' @examples
+#' try(
+#'   get_study_details("sonar.national_exposure")
+#' ) -> details
 get_study_details <- function(study_name, rapid7_opendata_api_key = rapid7_api_key()) {
 
   httr::GET(

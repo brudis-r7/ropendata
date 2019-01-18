@@ -37,7 +37,7 @@ data frame
 Retrieve details for a given file from a specific Rapid7 Open Data study
 }
 \examples{
-\dontrun{
-get_file_details("sonar.fdns_v2", "2018-06-15-1529049662-fdns_aaaa.json.gz")
-}
+try(
+  get_file_details("sonar.fdns_v2", "2018-06-15-1529049662-fdns_aaaa.json.gz")
+) -> details
 }

@@ -7,9 +7,10 @@
 #'        and the key is not found, you will be prompted to enter the key.
 #' @return data frame
 #' @export
-#' @examples \dontrun{
-#' list_studies()
-#' }
+#' @examples
+#' try(
+#'   list_studies()
+#' ) -> studies
 list_studies <- function(rapid7_opendata_api_key = rapid7_api_key()) {
 
   httr::GET(
