@@ -20,6 +20,6 @@ List available Rapid7 Cybersecurity Studies
 }
 \examples{
 try(
-  list_studies()
+  list_studies(), silent=TRUE
 ) -> studies
 }

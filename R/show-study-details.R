@@ -15,7 +15,8 @@
 #' @export
 #' @examples
 #' try(
-#'   get_study_details("sonar.national_exposure")
+#'   get_study_details("sonar.national_exposure"),
+#'   silent=TRUE
 #' ) -> details
 get_study_details <- function(study_name, rapid7_opendata_api_key = rapid7_api_key()) {
 

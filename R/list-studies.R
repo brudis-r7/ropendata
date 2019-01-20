@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' try(
-#'   list_studies()
+#'   list_studies(), silent=TRUE
 #' ) -> studies
 list_studies <- function(rapid7_opendata_api_key = rapid7_api_key()) {
 

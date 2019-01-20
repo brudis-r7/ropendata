@@ -15,6 +15,7 @@
 #' @name ropendata
 #' @docType package
 #' @author Bob Rudis (bob_rudis@@rapid7.com)
+#' @keywords internal
 #' @import httr
 #' @importFrom utils download.file
 #' @importFrom jsonlite fromJSON

@@ -1,14 +1,14 @@
 Package: ropendata
 Type: Package
-Title: Query and Download 'Rapid7' Cybersecurity Data Sets
+Title: Query and Download 'Rapid7' 'Cybersecurity' Data Sets
 Version: 0.1.0
-Date: 2018-07-17
+Date: 2019-01-20
 Authors@R: c(
-    person("Bob", "Rudis", email = "bob_rudis@rapid7.com", role = c("aut", "cre"), 
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: 'Rapid7' collects cybersecurity data and makes it available via
+Description: 'Rapid7' collects 'cybersecurity' data and makes it available via
     their 'Open Data' <opendata.rapid7.com> portal which has an 'API'. Tools are
     provided to assist in querying for available data sets and downloading any
     data set authorized to a registered account.

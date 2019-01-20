@@ -27,6 +27,7 @@ Retrieve details for a specific Rapid7 Open Data study
 }
 \examples{
 try(
-  get_study_details("sonar.national_exposure")
+  get_study_details("sonar.national_exposure"),
+  silent=TRUE
 ) -> details
 }
